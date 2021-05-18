@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Childbook</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Childbook</title>
 </head>
 <body>
-    <div>
-        <img src="img/car.gif" alt="car">За рулем сижу довольный &mdash;<br>
-        Ездить просто и легко!<br>
-        Только руль чуть-чуть огромный<br>
-        И педали далеко.
-    </div>
-    <div>
-        <img src="img/train.png" alt="car">Мне купили <b>паровозик</b><br>
-        Сразу два вагона возит.<br>
-        Я включу его, и он <br>
-        За собой везет вагон.<br>
-        Вот бы мне в нем прокатиться,<br>
-        Только жаль &mdash; не поместиться.
-    </div>
-    <div>
-        <img src="img/paints.gif" alt="car">Нарисую я в альбоме<br>
-        <em>Голубое</em> море.<br>
-        <em>Белый</em> парус над волною <br>
-        Бьётся на просторе.<br>
-    </div>
+	<div style=" display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3,auto); gap:40px; align-items: center;" >
+		<div style="justify-self: end;">
+			<img src="img/car.gif"  alt="car">
+			<!--использован формат gif т.к. изображение малоцветное, весит меньше png качество тоже -->
+		</div>
+		<div >
+				<pre style="font-family:arial; font-size:20px;margin: 0;">
+За рулем сижу довольный <span>&mdash;</span> 
+Ездить просто и легко!
+Только руль чуть-чуть огромный
+И педали далеко.
+				</pre>
+		
+		</div>
+		<div  style="justify-self: end;">
+			<img src="img/train.png"  alt="train">
+			<!--использован формат png т.к. изображение полноцветное, с оттенками-->
+		</div>	
+		<div >
+			<pre style="font-family:arial; font-size:20px;margin: 0;">
+Мне купили <strong>паровозик</strong>
+Сразу два вагона возит.
+Я включу его, и он 
+За собой везет вагон.
+Вот бы мне в нем прокатиться,
+Только жаль <span>&mdash;</span> не поместиться.
+			</pre>
+		</div>
+		<div  style="justify-self: end;">
+			<img src="img/paints.gif"  alt="paints">
+			<!--использован формат gif т.к. изображение малоцветное, весит меньше png качество тоже -->
+		</div>
+		<div>
+			<pre style="font-family:arial; font-size:20px; margin: 0;">
+Нарисую я в альбоме
+<em>Голубое</em> море.
+<em>Белый</em> парус над волною 
+Бьётся на просторе.
+			</pre>
+		</div>
+	</div>
 </body>
 </html>
