@@ -1,0 +1,22 @@
+article {
+    font-family: 'Caveat', cursive;
+    font-size: 28px;
+   
+}
+h1 {
+    text-align: center;
+    margin: 0;
+}
+.song {
+   display: table;
+    white-space: pre-line;	
+    margin: 0 auto;	
+    line-height: 30px;	
+}
+.gin {
+    display: table;
+    white-space: pre-line;	
+    margin: 0 auto;	
+    line-height: 30px;	
+}
+
