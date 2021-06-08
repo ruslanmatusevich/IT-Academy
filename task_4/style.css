@@ -1,0 +1,26 @@
+.left {
+    background: url(img/left.png) repeat-y left;
+}
+.top {
+    margin-top: 150px;
+    background: url(img/top.png) repeat-x top;
+}
+.right {
+    background: url(img/right.png) repeat-y right;
+}
+.bottom {
+    background: url(img/bottom.png) repeat-x bottom;
+} 
+.top-left {
+    background: url(img/top-left.png) no-repeat top left;
+}
+.top-right {
+    background: url(img/top-right.png) no-repeat top right;
+}
+.bottom-left{
+    background: url(img/bottom-left.png) no-repeat bottom left;
+}
+.bottom-right {
+    background: url(img/bottom-right.png) no-repeat bottom right;
+}
+                                   
