@@ -1,4 +1,4 @@
-.left {
+/* .left {
     background: url(img/left.png) repeat-y left;
 }
 .top {
@@ -22,5 +22,34 @@
 }
 .bottom-right {
     background: url(img/bottom-right.png) no-repeat bottom right;
-}
-                                   
+} */
+ .frame {
+     background-image:  
+                     url(img/top-left.png),
+                     url(img/top-right.png),
+                     url(img/bottom-right.png),
+                     url(img/bottom-left.png),
+                     url(img/top.png),
+                     url(img/right.png),
+                     url(img/bottom.png),
+                     url(img/left.png);
+    background-position:top left,
+                        top right,
+                        bottom right,
+                        bottom left,
+                        top,
+                        right,
+                        bottom,
+                        left;
+    background-repeat:  no-repeat,
+                        no-repeat,
+                        no-repeat,
+                        no-repeat,
+                        repeat-x,
+                        repeat-y,
+                        repeat-x,
+                        repeat-y;
+ }   
+ .frame h2 {
+     padding: 50px;
+ }                               
