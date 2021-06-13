@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Заказать звонок</h1>
+
+    <div class="wrapper">
+        <form method="GET" class="order" action="#">
+            <div class="form">
+                <div class="row"><input name="name" required placeholder="Ваше имя" type="text"></div>
+                <div class="data">
+                    <label for="data">возраст</label>
+                    <input name="data" required placeholder="Возраст" type="date">
+                </div>
+                <div class="radio"><label for="gender">пол</label>
+                    <label><input type="radio" name="gender" value="man">м</label>
+                    <label><input type="radio" name="gender" value="woman">ж</label>
+                    <label><input type="radio" name="gender" value="it" checked>чудо</label>
+                </div>
+                <input name="email" required placeholder="Ваш E-mail" type="email" pattern=".+@gmail.com" size="30">
+                <div class="tel">
+                    <input name="phone" required type="tel" pattern="[0-9]{13}" placeholder="телефон: +375-__-___-____">
+                </div>
+
+                <div class="button">
+                    <button type="submit"><img src="img/yes.png" alt="img"></button>
+                    <button type="reset"><img src="img/end.svg" alt="img"></button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
