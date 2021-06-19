@@ -1,4 +1,4 @@
-header {
+header{
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
@@ -10,7 +10,7 @@ header h1{
     font-size: 30px;
     text-transform: uppercase;
 }
-.phone a {
+.phone a{
     display: flex;
     margin-bottom: 7px;
     color: white;
@@ -19,7 +19,7 @@ header h1{
 .phone :hover{
     color: #6495ed;
 }
-nav {
+nav{
     display: flex;
     justify-content:space-evenly;
     padding: 10px 0;
@@ -29,17 +29,17 @@ nav {
 nav :hover{
     background-color: #00FFFF;
 }
-main {
+main{
     padding: 0 300px;
    margin: 0 auto;
    background-color:skyblue;
 }
-iframe {
+iframe{
     width: 100%;
     height: 350px;
     background-color: #fff;
 }
-footer {
+footer{
     padding: 10px 0;
     background-color: #00FFFF;
 }
@@ -47,14 +47,14 @@ footer div{
     display: flex;
     justify-content: space-evenly;
 }
-input {
+input{
     display: block;
     margin: 5px auto;
 }
 h1{
     text-align: center;
 }
-.form button {
+.form button{
     width: 50px;
     height: 25px;
 }
@@ -62,30 +62,29 @@ h1{
     width: 50%;
     height: 100%;
 }
-.form {
+.form{
     position: relative;
     padding: 20px 50px;
 }
-.data {
+.data{
     display: block;
     margin: 0 auto;
     text-align: center;
 }
-.radio, .button {
+.radio, .button{
     display: flex;
     justify-content: center;
 }
-.radio label, .button button {
+.radio label, .button button{
     margin: 0 10px;
 }
-.tel::before {
+.tel::before{
     position: absolute;
     left: 160px;
     top: 173px;  
     content: url('img/mts.png');
     width: 100px;
     height: 100px;
-   
 }
 
 
