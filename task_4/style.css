@@ -1,0 +1,55 @@
+/* .left {
+    background: url(img/left.png) repeat-y left;
+}
+.top {
+    margin-top: 150px;
+    background: url(img/top.png) repeat-x top;
+}
+.right {
+    background: url(img/right.png) repeat-y right;
+}
+.bottom {
+    background: url(img/bottom.png) repeat-x bottom;
+} 
+.top-left {
+    background: url(img/top-left.png) no-repeat top left;
+}
+.top-right {
+    background: url(img/top-right.png) no-repeat top right;
+}
+.bottom-left{
+    background: url(img/bottom-left.png) no-repeat bottom left;
+}
+.bottom-right {
+    background: url(img/bottom-right.png) no-repeat bottom right;
+} */
+ .frame {
+     background-image:  
+                     url(img/top-left.png),
+                     url(img/top-right.png),
+                     url(img/bottom-right.png),
+                     url(img/bottom-left.png),
+                     url(img/top.png),
+                     url(img/right.png),
+                     url(img/bottom.png),
+                     url(img/left.png);
+    background-position:top left,
+                        top right,
+                        bottom right,
+                        bottom left,
+                        top,
+                        right,
+                        bottom,
+                        left;
+    background-repeat:  no-repeat,
+                        no-repeat,
+                        no-repeat,
+                        no-repeat,
+                        repeat-x,
+                        repeat-y,
+                        repeat-x,
+                        repeat-y;
+ }   
+ .frame h2 {
+     padding: 50px;
+ }                               
