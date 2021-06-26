@@ -1,0 +1,76 @@
+body {
+    padding-top: 100px;
+}
+h1 {
+    text-align: center;
+    color:darkviolet ;
+}
+.menu {
+    padding: 20px;
+    margin-left: 125px;
+}
+.menu ul {
+    padding: 0;
+}
+.menu  li{
+display: inline-block;
+margin: 20px;
+}
+.menu a {
+    color: green;
+}
+.menu a:hover {
+    color:red;
+}
+.menu ul li {
+    border-right: 2px solid red;
+    padding-right: 45px;
+}
+.menu ul li:last-child {
+    border-right: none;
+}
+.flex {
+    padding: 20px;
+}
+.flex ul{
+display: flex;
+justify-content: space-around;
+}
+.flex a {
+    color: green;
+}
+.flex li {
+    list-style: none;
+}
+.flex span {
+    display: inline-block;
+    width: 2px;
+    height: 20px;
+    background: red;
+}
+.flex a:hover {
+    color:red;
+}
+.float {
+    padding: 20px;
+    margin: 0 auto;
+}
+.float li{
+    float: left;
+    list-style: none;
+}
+.float a {
+    margin: 0 60px;
+    color: green;
+}
+.float a:hover {
+    color:red;
+}
+.float li:after {
+ content: url(divider.gif);
+ position: relative;
+ top: 7px;
+}
+.float li:last-child:after{
+    display: none;
+}
