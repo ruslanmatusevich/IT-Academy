@@ -1,0 +1,21 @@
+
+body {
+   padding: 50px;
+}
+img {
+    width: 150px;
+}
+/* img:nth-child(n):hover~img: {
+    background-image: url(star.png);
+    background-size: contain;
+} */
+
+.stars:hover img{
+   background-image:url(star.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .stars .img:hover ~ .img {
+    background-image:url(star1.png);
+  }
