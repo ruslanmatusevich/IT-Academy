@@ -1,0 +1,22 @@
+table.chess {
+    border-collapse: collapse;
+}
+table.chess td {
+    width: 50px;
+    height: 50px;
+    border: solid gray 1px;
+}
+ tr:nth-child(odd) td:nth-child(even) {
+    background: black;
+}
+ tr:nth-child(even) td:nth-child(odd) {
+    background: black;
+}
+body table.chess tr:first-child td, body table.chess tr:last-child td{
+    height: 20px;
+    background: rgb(92, 216, 92);
+}
+body table.chess tr td:first-child, body table.chess tr td:last-child {
+    width: 20px;
+    background: rgb(92, 216, 92);
+}
