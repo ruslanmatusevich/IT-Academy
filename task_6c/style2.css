@@ -1,0 +1,23 @@
+body{
+    padding: 20px;
+}
+.data {
+    color: green;
+}
+.champ {
+    color: red;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+p {
+    color: blueviolet;
+    font-style: italic;
+}
+a[href] {
+    padding-left: 15px;
+    background-image: url(extref.png);
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+}
