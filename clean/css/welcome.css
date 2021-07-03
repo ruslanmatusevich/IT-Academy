@@ -1,0 +1,63 @@
+.welcome {
+    min-height: 920px;
+    padding: 75px 85px;
+}
+.welcome__header {
+display: flex;
+align-items: center;
+}
+.block {
+    display: block;
+}
+.welcome__header h2 {
+    display: inline-block;
+    font-size: 43px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: uppercase;
+}
+.strip_thin {
+    margin: 0 5px;
+    width: 3px;
+    height: 60px;
+    background-color: #4ac9f0;
+}
+.strip_thick {
+    width: 90px;
+    height: 10px;
+    background-color: #4ac9f0;
+}
+.welcome__text {
+    font-size: 17px;
+    font-weight: 400;
+    color: #151515;
+    width: 450px;
+    text-align: center;
+}
+.welcome__img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.welcome__img img {
+    border: 20px solid #230c0c;
+    width: 535px;
+}
+.welcome a {
+    text-decoration: none;
+}
+.welcome a button{
+    display: block;
+    margin: 60px auto 0;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #041d2c;
+    color: #fffcf4;
+    font-size: 16px;
+    border-radius: 15px;
+    border-color: #041d2c;
+    
+}
