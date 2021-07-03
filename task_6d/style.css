@@ -5,10 +5,7 @@ body {
 img {
     width: 150px;
 }
-/* img:nth-child(n):hover~img: {
-    background-image: url(star.png);
-    background-size: contain;
-} */
+
 
 .stars:hover img{
    background-image:url(star.png);
@@ -19,3 +16,4 @@ img {
   .stars .img:hover ~ .img {
     background-image:url(star1.png);
   }
+  
