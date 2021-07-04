@@ -1,5 +1,5 @@
 header {
-    min-height: 850px;
+    height: 850px;
     background: url(../img/banner1.jpg) center center / cover no-repeat;
 }
 .header  {
@@ -168,14 +168,14 @@ menu h1 {
     margin-top: 50px;
     padding-left: 30px;
 }
-.slide__list {
+.slide_list {
     display: flex;
 }
-.slide__list ul{
+.slide_list ul{
     padding: 0;
     list-style-type: none;
 }
-.slide__list ul li {
+.slide_list ul li {
     text-align: left;
     width: 23px;
     height: 23px;
@@ -183,7 +183,7 @@ menu h1 {
     background-color: #4ac9f0;
     margin: 5px 10px 5px 0;
 }
-.slide__list ul li:nth-child(2) {
+.slide_list ul li:nth-child(2) {
     background-color:#020607;
 }
 .slide h2 {
@@ -199,20 +199,16 @@ menu h1 {
     letter-spacing: normal;
     color: #4ac9f0;
     }
-.slide__list .text {
+.slide_list .text {
     width: 640px;
     padding: 15px 0;
     font-size: 17px;
     font-weight: 400;
     color: #000202;
 }  
-button.contact {
-   margin: 30px 0 0 30px;
-   width: 300px;
-   height: 80px;
-   border-radius: 25px;
-   background-color: #020607;
-   border-color: #020607;
+.contact {
    color: #feffff;
-   font-size: 20px;
+   font-size: 18px;
+   text-decoration: none;
+   line-height: 47px;
 } 

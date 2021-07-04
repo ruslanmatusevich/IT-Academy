@@ -1,0 +1,30 @@
+.button {
+    display: block;
+    border-radius: 15px;
+    width: 190px;
+    height: 48px;
+    text-align: center;
+    cursor: pointer;
+    color: #fffcf4;
+}
+.button_left {
+    margin: 30px 0 0 30px;
+    background-color:#020607;
+}
+.button_left:hover{
+    background-color: #4ac9f0;
+    transition: 0.6s all;
+}
+.button_centr {
+    background-color: #041d2c;
+    margin: 60px auto 0 ;
+}
+.button_centr:hover{
+    background-color: #4ac9f0;
+    transition: 0.6s all;
+    color: #fffcf4;
+}
+.button_white {
+    background-color:#fffcf4;
+    color: #020607;
+}

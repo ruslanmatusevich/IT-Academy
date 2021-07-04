@@ -1,10 +1,17 @@
 @import 'header.css';
 @import 'servises.css';
 @import 'welcome.css';
+@import 'button.css';
+@import 'process.css';
+@import 'cleaning.css';
+@import 'review.css';
 
 * { font-family: 'Poppins', serif ;
     margin: 0;
     box-sizing: border-box;
+}
+.container {
+    padding: 0 85px;
 }
 
 
