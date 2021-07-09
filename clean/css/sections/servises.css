@@ -3,8 +3,6 @@
     justify-content: space-between;
 }
 .services_item {
-    
-    height: 320px;
     background-color: #4ac9f0;
     margin-right: 7px;
     padding: 0 26px 30px 30px;
@@ -46,3 +44,4 @@
     line-height: 35px;
     color: #fffcf4;
 }
+

@@ -1,0 +1,531 @@
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 912px;
+        margin: 0 auto;
+     }
+     .menu .logo {
+        margin-right: 80px;
+    }
+    menu {
+       padding: 60px 50px 0 50px; 
+    }
+    .slide h2 {
+        font-size: 47px;
+    }
+    .slide h1 {
+        font-size: 52px;
+    }
+    header {
+        height: 680px;
+    }
+    .services_item {
+        height: 290px;
+    }
+    .h2_black {
+        font-size: 32px;
+    }
+    .welcome_img {
+        width: 100%;
+    }
+    .welcome_img img {
+        width: 47%;
+        margin: 30px 1% 0;
+    }
+    .welcome {
+        min-height: 650px;
+    }
+    .h2_white {
+        font-size: 40px;
+    }
+    .process {
+        min-height: 680px;
+        padding-top: 60px;
+    }
+    .process_items {
+        padding: 0 10px;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .process_item_1, .process_item_3 {
+        width: 27%;
+    }
+    .process_item_2 {
+        width: 37%;
+    }
+    .process_item_4 {
+        width: 7%;
+    }
+    .left, .right {
+        width: 100%;
+        height: 42px;
+    }
+    .clean {
+        padding: 40px;
+    }
+    .cleaning {
+        width: 912px;
+        height: 890px;
+        background:url('../img/cac_little.png') center center / contain no-repeat;
+    }
+    .review {
+        padding: 70px 0;
+    }
+    .contact::after {
+        right: -182px;
+    }
+    .request .contact {
+        padding: 50px 20px 0 45px;
+    } 
+    .input_wrapper {
+        margin-bottom: 50px;
+    }
+    .footer_black {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 8px 0;
+    }
+    .footer_black h3 {
+        padding: 0;
+        font-size: 28px;
+    }
+    footer a svg {
+        vertical-align: middle;
+    }
+}
+@media screen and (max-width: 991px) {
+    .hamburger {
+        display: none;
+    }
+    header {
+        height: 590px;
+        background: url(../img/banner1_little.jpg) center center / cover no-repeat;
+    }
+    .logo {
+        display: none;
+    }
+    .slide h2 {
+        font-size: 43px;
+        margin-top: 30px;
+    }
+    .slide h1 {
+        font-size: 44px;
+    } 
+    .button {
+        width: 180px;
+        height: 45px;
+    }
+    .button_left {
+        margin-top: 70px;
+    }
+    .services_item {
+        padding: 0;
+    }
+    .services_item .title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .welcome {
+        min-height: 540px;
+        padding: 30px;
+        background-color: aliceblue;
+    }
+    .h2_black {
+        font-size: 25px;
+    } 
+    .welcome .strip_thick {
+        display: none;
+    }
+    .welcome_img {
+        width: 100%;
+    }
+    .welcome_img img {
+        width: 47%;
+        margin: 30px 1% 0;
+        border: 5px solid #230c0c;
+    }
+    .process {
+        min-height: 560px;
+        padding-top: 30px;
+    }
+    .process .block {
+        margin-left: 30px;
+    }
+    .h2_white {
+        font-size: 35px;
+    }
+    .services_item span {
+        margin-top: -20px;
+    }
+    .process {
+        min-height: 520px;
+    }
+    .process_items {
+        padding: 0 10px;
+        width: 100%;
+        }
+    .process_item_1, .process_item_3 {
+        width: 27%;
+    }
+    .process_item_2 {
+        width: 37%;
+    }
+    .process_item_4 {
+        width: 7%;
+    }
+    .left, .right {
+        width: 100%;
+        height: 30px;
+    }
+    .arrows_circle {
+        justify-content: space-around;
+    }
+     .cleaning {
+        height: 680px;
+        background:url('../img/cac_little.png') center center / contain no-repeat;
+    }
+    .footer_black h3 {
+        font-size: 23px;
+    }
+    .footer_black {
+        padding: 4px 0;
+    }
+    footer a svg {
+        width: 30px;
+        height: 30px;
+        }
+}
+@media screen and (max-width: 767px) {
+    .pageup img{
+        display: none;
+    }
+    .list {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    header {
+        height: 510px;
+        background: url(../img/banner1_767px.jpg) center center / cover no-repeat;
+    }
+    .head {
+       padding: 0;
+    } 
+    #menu__toggle {
+        opacity: 0;
+      }
+    #menu__toggle:checked ~ .menu__btn > span {
+        transform: rotate(45deg);
+      }
+    #menu__toggle:checked ~ .menu__btn > span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::after {
+        top: 0;
+        transform: rotate(90deg);
+      }
+    #menu__toggle:checked ~ .menu__box {
+        visibility: visible;
+        right: 0;
+      }
+    .menu__btn {
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 60px;
+        left: 30px;
+        width: 40px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+      }
+      
+    .menu__btn > span,
+    .menu__btn > span::before,
+    .menu__btn > span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: red;
+        transition-duration: .5s;
+      }
+    .menu__btn > span::before {
+        content: '';
+        top: -10px;
+      }
+    .menu__btn > span::after {
+        content: '';
+        top: 10px;
+      }
+    .menu__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        right: -100%;
+        width: 50%;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        background-color: rgba(0, 0, 0, .6);
+        transition-duration: .25s;
+      }
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+      }
+    .menu__item:hover {
+        border: 1px solid red;
+        border-radius:10px;
+        background-color:turquoise;
+      }
+    .slide h2 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .slide h1 {
+        font-size: 37px;
+    }
+    .slide_list ul li {
+        width: 20px;
+        height: 20px;
+    }
+    .button {
+        width: 140px;
+        height: 50px;
+    }
+    .contact_us {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .services {
+        display: block;
+    }
+    .services_item {
+        width:100%;
+        height: 230px;
+    }
+    .h2_black {
+        margin-top: 40px;
+        font-size: 22px;
+    }
+    .welcome_header {
+        display: block;
+    }
+    .strip_thin {
+        margin: 10px auto;
+        width: 90%;
+        height: 3px;
+    }
+    .welcome {
+        min-height: 500px;
+        padding: 0;
+    }
+    .welcome .button_centr {
+        margin-bottom: 20px;
+    }
+    .welcome_text {
+        margin: 0 auto;
+    }
+    .welcome_img img {
+        width: 48%;
+        border: 2px solid #230c0c;
+        margin: 30px 1% 0;
+    }
+    .read_more {
+        line-height: 50px;
+        font-size: 20px;
+    }
+    .h2_white {
+        font-size: 30px;
+    }
+    .process {
+        padding-bottom: 30px;
+    }
+    .process_items {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .item_text {
+        font-size: 20px;
+    }
+    .process_item_1, .process_item_2, .process_item_3 {
+        width:90%;
+    }
+    .process_items img , .item_text {
+        display: block;
+        width: 70%;
+        margin: 5px auto;
+    }
+    .process_item_4 {
+display: none;
+    }
+    .clean {
+        padding: 0 10px;
+    }
+    .review {
+        padding: 30px 0;
+    }
+    .h2_white {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .arrows_circle {
+        margin-top: 10px;
+    }
+    .luka_duge .button_centr {
+        margin-top: 10px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    .circle_left, .circle_right {
+        display: none;
+    }
+    .request {
+        flex-direction: column;
+    }
+    .request .contact {
+        position: static;
+        padding: 30px 20px;
+    }
+    .h2_white {
+        font-size: 32px;
+    }
+    .input_wrapper {
+        margin-bottom: 40px;
+    }
+    .send {
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .contact::after {
+        display: none;
+    }
+    .request .contact {
+        width:100%;
+    }
+    .map {
+        width:100%;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 575px) {
+    header {
+        height: 360px;
+    }
+    header .button {
+        height: 30px;
+        width:80%;
+        margin: 50px auto 0;
+        font-size: 10px;
+    }
+    .contact_us {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .head {
+        display: none;
+        }
+    
+    .welcome_img {
+        flex-direction: column;
+    }
+    menu {
+        padding:40px 0 50px;
+    }
+    .menu__btn {
+        top: 17px;
+        left: 17px;
+        width: 30px;
+        height: 20px;
+    }
+    .slide h2 {
+        margin-top: 20px;
+        text-align: center;
+        padding: 0;
+    }
+    .slide h1 {
+        padding: 0;
+        text-align: center;
+    }
+    .slide_list {
+        display: none;
+    }
+    .services_item span  {
+        margin-top: 0;
+    }
+    .services_item {
+        height: 100%;
+    }
+    .welcome_text {
+        font-size: 15px;
+        width:100%;
+    }
+    .h2_black {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .welcome_img img {
+        width:80%;
+        margin: 10px auto;
+    }
+    .button_centr {
+        margin: 20px auto;
+        width: 90%;
+        height: 40px;
+    }
+    .read_more {
+        line-height: 40px;
+        font-size: 18px;
+    }
+    .h2_white {
+        font-size: 25px;
+    }
+    .strip_thick {
+        width: 85px;
+        height: 5px;
+    }
+    .cleaning {
+        height: 380px;
+    }
+    .review_text {
+        padding:0;
+    }
+    .luka_duge .button_centr {
+        width:90%;
+        line-height: 43px;
+        font-size: 18px;
+    }
+    .send {
+        width: 100%;
+        height: 36px;
+    }
+    .map {
+        height: 250px;
+    }
+    .footer_black  {
+        flex-direction: column;
+    }
+    .footer_black ul {
+        margin: 10px auto;
+    }
+    .footer_blue {
+        height: 100%;
+        font-size: 19px;
+        line-height: 40px;
+    }
+}

@@ -1,15 +1,16 @@
 .welcome {
+    display: flex;
+    justify-content: center;
     min-height: 780px;
     padding: 75px 0;
 }
 .welcome_header {
 display: flex;
+justify-content: center;
 align-items: center;
 }
-.block {
-    display: block;
-}
 .h2_black {
+    margin: 0;
     font-size: 43px;
     font-weight: 700;
     color: #151515;
@@ -35,13 +36,13 @@ align-items: center;
 }
 .welcome_img {
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    
+    justify-content: center;
 }
 .welcome_img img {
+    display: block;
     border: 20px solid #230c0c;
-    width: 535px;
+    width: 516px;
+    margin: 50px 15px 0;
 }
 .read_more {
     color: #feffff;
