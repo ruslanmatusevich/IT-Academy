@@ -1,0 +1,71 @@
+.review {
+    display: flex;
+    justify-content: center;
+    background: url(../../img/banner.jpg);
+    padding: 100px 0;
+    background-color: #0a0b0b;
+}
+.block {
+    text-align: center;
+}
+.review .strip_thick {
+    margin: 0 auto 40px;
+}
+.foto {
+    display: block;
+    margin: 0 auto;
+}
+.brackets {
+    position: relative;
+    top: -25px;
+    display: block;
+    margin: 0 auto;
+}
+.arrows_circle span {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #fffcf4;
+    text-transform: uppercase;
+}
+.review_text {
+    font-size: 17px;
+    font-weight: 400;
+    display: block;
+    line-height: 2.18;
+    text-align: center;
+    color: #fffcf4;
+    margin-bottom: 30px;
+    padding: 0 96px;
+}
+.button_white {
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 47px; 
+}
+.circle_left, .circle_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 83px;
+    height: 83px;
+    background-color: #fffcf4;
+    border-radius:100%;
+}
+.arrows_circle {
+    position: relative;
+    top: -30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrows_circle a:hover {
+    fill: #feffff;
+    cursor: pointer;
+    background-color:#4ac9f0;
+    transition: 0.6s all;
+}
+

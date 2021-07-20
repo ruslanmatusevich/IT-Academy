@@ -1,0 +1,52 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    min-height: 780px;
+    padding: 75px 0;
+}
+.welcome_header {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.h2_black {
+    margin: 0;
+    font-size: 43px;
+    font-weight: 700;
+    color: #151515;
+    text-transform: uppercase;
+}
+.strip_thin {
+    margin: 0 5px;
+    width: 3px;
+    height: 60px;
+    background-color: #4ac9f0;
+}
+.strip_thick {
+    width: 90px;
+    height: 10px;
+    background-color: #4ac9f0;
+}
+.welcome_text {
+    font-size: 17px;
+    font-weight: 400;
+    color: #151515;
+    width: 450px;
+    text-align: center;
+}
+.welcome_img {
+    display: flex;
+    justify-content: center;
+}
+.welcome_img img {
+    display: block;
+    border: 20px solid #230c0c;
+    width: 516px;
+    margin: 50px 15px 0;
+}
+.read_more {
+    color: #feffff;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 47px; 
+}

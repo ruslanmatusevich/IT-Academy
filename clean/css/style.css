@@ -1,0 +1,25 @@
+@import 'sections/header.css';
+@import 'sections/servises.css';
+@import 'sections/welcome.css';
+@import 'sections/button.css';
+@import 'sections/process.css';
+@import 'sections/clean.css';
+@import 'sections/review.css';
+@import 'sections/request.css';
+@import 'sections/footer.css';
+@import 'adaptation.css';
+@import 'sections/pageup.css';
+
+* { font-family: 'Poppins', serif ;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+   width: 1140px;
+   margin: 0 auto;
+}
+
+
+
+
+
