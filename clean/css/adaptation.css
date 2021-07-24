@@ -70,8 +70,15 @@
     .review {
         padding: 70px 0;
     }
-    .contact::after {
-        right: -182px;
+    .map::after {
+        position: absolute;
+        content:'';
+        top: 0;
+        left: -1px;
+        border: 670px solid transparent; 
+        border-left: 192px solid #4ac9f0; 
+        border-top: 0px solid #4ac9f0; 
+        border-right:0;   
     }
     .request .contact {
         padding: 50px 20px 0 45px;
@@ -193,7 +200,7 @@
     footer a svg {
         width: 30px;
         height: 30px;
-        }
+    }
 }
 @media screen and (max-width: 767px) {
     .pageup img{
@@ -210,26 +217,27 @@
         background: url(../img/banner1_767px.jpg) center center / cover no-repeat;
     }
     .head {
-       padding: 0;
+       padding: 0 10px;
     } 
     #menu__toggle {
         opacity: 0;
-      }
+    }
     #menu__toggle:checked ~ .menu__btn > span {
-        transform: rotate(45deg);
-      }
+        background: transparent;
+    }
     #menu__toggle:checked ~ .menu__btn > span::before {
-        top: 0;
-        transform: rotate(0);
+        transform: rotate(-45deg);
     }
     #menu__toggle:checked ~ .menu__btn > span::after {
-        top: 0;
-        transform: rotate(90deg);
-      }
+        transform: rotate(45deg);
+    }
+    #menu__toggle:checked ~ .menu__btn > span::before,#menu__toggle:checked ~ .menu__btn > span::after{
+          top: 0;
+    }
     #menu__toggle:checked ~ .menu__box {
         visibility: visible;
         right: 0;
-      }
+    }
     .menu__btn {
         display: flex;
         align-items: center;
@@ -240,7 +248,7 @@
         height: 26px;
         cursor: pointer;
         z-index: 1;
-      }
+    }
       
     .menu__btn > span,
     .menu__btn > span::before,
@@ -249,17 +257,17 @@
         position: absolute;
         width: 100%;
         height: 3px;
-        background-color: red;
-        transition-duration: .5s;
-      }
+        background-color:greenyellow;
+        transition-duration: .2s;
+    }
     .menu__btn > span::before {
         content: '';
-        top: -10px;
-      }
+        top: -11px;
+    }
     .menu__btn > span::after {
         content: '';
-        top: 10px;
-      }
+        top: 11px;
+    }
     .menu__box {
         display: flex;
         flex-direction: column;
@@ -275,8 +283,9 @@
         padding: 80px 0;
         list-style: none;
         background-color: rgba(0, 0, 0, .6);
-        transition-duration: .25s;
-      }
+        transition-duration: 1.5s;
+        z-index: 3;
+    }
     .menu__item {
         display: block;
         padding: 12px 24px;
@@ -285,12 +294,13 @@
         font-weight: 600;
         text-decoration: none;
         transition-duration: .25s;
-      }
+        z-index: 3;
+    }
     .menu__item:hover {
-        border: 1px solid red;
-        border-radius:10px;
-        background-color:turquoise;
-      }
+        outline: 1px solid #4ac9f0;
+        outline-offset:5px;
+        background-color:#4ac9f0;
+    }
     .slide h2 {
         font-size: 35px;
         margin-top: 20px;
@@ -371,7 +381,7 @@
         margin: 5px auto;
     }
     .process_item_4 {
-display: none;
+        display: none;
     }
     .clean {
         padding: 0 10px;
@@ -412,7 +422,7 @@ display: none;
         height: 50px;
         font-size: 20px;
     }
-    .contact::after {
+    .map::after {
         display: none;
     }
     .request .contact {
@@ -447,6 +457,9 @@ display: none;
     menu {
         padding:40px 0 50px;
     }
+    .hamburger-menu .menu__box {
+        width: 87%;
+    }
     .menu__btn {
         top: 17px;
         left: 17px;
@@ -474,6 +487,7 @@ display: none;
     .welcome_text {
         font-size: 15px;
         width:100%;
+        padding:0 10px;
     }
     .h2_black {
         margin-top: 30px;
@@ -503,7 +517,7 @@ display: none;
         height: 380px;
     }
     .review_text {
-        padding:0;
+        padding:0 10px;
     }
     .luka_duge .button_centr {
         width:90%;
@@ -525,7 +539,7 @@ display: none;
     }
     .footer_blue {
         height: 100%;
-        font-size: 19px;
-        line-height: 40px;
+        font-size: 18px;
+        line-height: 33px;
     }
 }

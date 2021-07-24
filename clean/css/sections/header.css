@@ -59,10 +59,11 @@ header {
     height: 25px;
     border-radius: 100%;
     background-color: #4ac9f0;
+    transition: .5s all;
 }
 .social a svg:hover {
     fill: #ffffff;
-    transition: 0.5s all;
+    
 }
 menu {
     padding: 80px 70px 0 70px;
@@ -88,6 +89,7 @@ menu {
     font-weight: 500;
     line-height: 1.71;
     color: #0f0901;
+    transition: all 0.7s;
 }
 .menu .list ul li .home:first-child {
     color: #4ac9f0;

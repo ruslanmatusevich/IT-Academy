@@ -14,9 +14,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 .container {
-   width: 1140px;
+   max-width: 1140px;
+   width: 100%;
    margin: 0 auto;
+}
+a {
+    transition: all 0.7s;
 }
 
 

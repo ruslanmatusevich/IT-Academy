@@ -9,8 +9,8 @@
     padding: 100px 40px 120px 85px;
 }
 .h2_request {
-font-size: 42px;
-font-weight: 400;
+    font-size: 42px;
+    font-weight: 400;
 }
 .block_request {
     text-align:unset;
@@ -57,21 +57,27 @@ input:focus, textarea:focus {
     text-transform: uppercase;
     font-size: 17px;
     border-radius: 10px;
+    transition: all 0.7s;
 }
 .send:hover {
     background-color: #fffcf4;
     color: #041d2c;
     transition: 0.6s all;
 }
-.contact::after {
-    position: absolute;
-    top: 0;
-    right: -165px;
-    content:'';
-    background: url(../../img/c.png);
-    width: 192px;
-    height: 100%;
+.map {
+    position: relative;
 }
+.map::after {
+    position: absolute;
+    content:'';
+    top: 0;
+    left: -1px;
+    border: 709px solid transparent; 
+    border-left: 192px solid #4ac9f0; 
+    border-top: 0px solid #4ac9f0;
+    border-right:none;
+}
+
 .map {
     width: 50%;
 }
