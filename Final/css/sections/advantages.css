@@ -95,6 +95,7 @@
     float: none;
     overflow: hidden;
     background: #f5f5f5;
+    height: 100%;
 }
 .view .mask{
     position: absolute;
@@ -103,6 +104,7 @@
     left: 0;
     transition: all 0.6s linear;
     opacity: 0;
+    height: 100%;
  }
 .mask img {
    height:100%;

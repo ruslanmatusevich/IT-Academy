@@ -166,6 +166,7 @@
     }
     .navbar .menu-icon {
         display: block;
+        
     }
     .navbar .menu {
         opacity:0;
@@ -207,6 +208,8 @@
         display: none;
     }
     .menu li a span {
+        outline-offset: 5px;
+    outline: #5ce8ed 2px solid;
         transition: 1s all;
     }
     .navbar .menu-btn:checked  ~ .menu li a span {
@@ -222,13 +225,18 @@
     .navbar .menu-btn:checked ~ .menu-icon .navicon {
         background: transparent;
     }
+    .navbar .menu-btn:checked ~ .menu-icon {
+        outline-offset: -3px;
+        outline: #5ce8ed 2px solid;
+    }
+    
     .navbar .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
-    background: #55acee;
+    background: #5ce8ed;
     }
     .navbar .menu-btn:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg);
-    background: #55acee;
+    background: #5ce8ed;
     }
     .navbar .menu-btn:checked ~ .menu-icon .navicon:before,
     .navbar .menu-btn:checked ~ .menu-icon .navicon:after {
@@ -320,8 +328,15 @@
     .navbar {
         width:100%;
     }
-    .menu {
-        width:100%;
+    .navbar .menu {
+        width:75%;
+    }
+    .navbar .menu-icon .navicon {
+        right: 25px;
+    }
+    .navbar .menu-icon {
+        top: 75px;
+        right: 23px;
     }
     .menu li  {
         text-align: center;
@@ -638,7 +653,7 @@
         justify-content:space-between;
     }
     .twitter_posts  {
-display: none;
+        display: none;
     }
     .news_company {
         padding: 50px 0 60px;
