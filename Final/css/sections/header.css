@@ -137,15 +137,17 @@ a:hover, svg:hover{
     position: absolute;
     right: 50px;
     top: -3px;
+    /* background-color: rgba(0,0,0, 0.4) */
   }
   .navbar .menu-icon .navicon {
     background: #ff9900;
     display: block;
     height: 2px;
-    position: relative;
-    left:50px;
+    position: fixed;
+    right:50px;
     transition:  .2s ease-out;
     width: 35px;
+    z-index: 3;
 }
   .navbar .menu-icon .navicon:before,
   .navbar .menu-icon .navicon:after {

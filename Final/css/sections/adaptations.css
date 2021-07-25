@@ -169,18 +169,34 @@
     }
     .navbar .menu {
         opacity:0;
-        display: block; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        width: 50%;
+        height: 100vh;
+        background: rgba(0,0,0, 0.4);
+       text-align: center;
+       padding-top: 88px;
+       z-index: 3;
     }
+    .navbar a span::before {
+        display: none;
+      }
     .logo_nav .container {
         height: 50px;
     }
+  
+.navbar a:hover span {
+    color:#ff9900;
+    transform: translateY(0);
+}
+    
     .navbar .menu-btn:checked ~ .menu {
         opacity:1;
     }
-    .navbar ul {
-       margin-top: 35px;
-       background: rgba(0,0,0, 0.4);
-    }
+   
     .navbar ul span {
         color: #5ce8ed;
     }
@@ -208,9 +224,11 @@
     }
     .navbar .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
+    background: #55acee;
     }
     .navbar .menu-btn:checked ~ .menu-icon .navicon:after {
     transform: rotate(45deg);
+    background: #55acee;
     }
     .navbar .menu-btn:checked ~ .menu-icon .navicon:before,
     .navbar .menu-btn:checked ~ .menu-icon .navicon:after {
